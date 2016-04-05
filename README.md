@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ansible Role: NTP
 
 [![Build Status](https://travis-ci.org/geerlingguy/ansible-role-ntp.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-ntp)
@@ -53,3 +54,6 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+=======
+# travis-ansible
+>>>>>>> e851f23328e58050a1ac4df570bc18675bed4e42
