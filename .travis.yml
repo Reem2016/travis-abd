@@ -13,14 +13,14 @@ install:
   - pip install ansible
 
   # Add ansible.cfg to pick up roles path.
-  - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
+ # - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
 
 script:
   # Check the role/playbook's syntax.
-  #- "ansible-playbook -i tests/inventory tests/test.yml --syntax-check"
+  - "ansible-playbook -i tests/inventory tests/test.yml --syntax-check"
 
   # Run the role/playbook with ansible-playbook.
-  #- "ansible-playbook -i tests/inventory tests/test.yml --connection=local --sudo"
+  - "ansible-playbook -i tests/inventory tests/test.yml --connection=local --sudo"
 
   # Run the role/playbook again, checking to make sure it's idempotent.
   #- >
